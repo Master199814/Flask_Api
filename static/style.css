@@ -1,0 +1,16 @@
+.container{
+    align-items: center;
+    text-align: center;
+}
+h1{
+    color:red;
+    text-align: center;
+}
+.customer_table
+{
+    margin-left: 33.3%;
+
+}
+.order_table{
+    margin-left: 42%;
+}

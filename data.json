@@ -1,0 +1,63 @@
+{
+    "customers":[
+        {
+          "id": 1,
+          "name": "John Doe",
+          "email": "johndoe@example.com",
+          "phone": "123-456-7890"
+        },
+        {
+          "id": 2,
+          "name": "Jane Smith",
+          "email": "janesmith@example.com",
+          "phone": "456-789-1230"
+        },
+        {
+          "id": 3,
+          "name": "Satheesh",
+          "email": "satheesh@example.com",
+          "phone": "456-889-1280"
+        }
+    
+      ],
+    "orders":[
+        {
+          "id": 1,
+          "customer_id": 1,
+    
+          "product": "Product A1",
+          "quantity": 1
+        },
+        {
+          "id": 2,
+          "customer_id": 1,
+    
+          "product": "Product A2",
+          "quantity": 2
+        },
+        {
+          "id": 1,
+          "customer_id": 2  ,
+          "product": "Product B1",
+          "quantity": 1
+        },
+        {
+          "id": 2,
+          "customer_id": 2  ,
+          "product": "Product B2",
+          "quantity": 3
+        },
+        {
+          "id": 1,
+          "customer_id": 3  ,
+          "product": "Product C1",
+          "quantity": 1
+        },
+        {
+          "id": 2,
+          "customer_id": 3  ,
+          "product": "Product C2",
+          "quantity": 3
+        }
+      ]
+    }

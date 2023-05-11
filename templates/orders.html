@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="device-width,initial-scale=1"/>
+        <title>Customer Page</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='/style.css') }}">
+    </head>
+    <body>
+        <div><h1>Orders Page</h1></div>
+        <div class="container">
+            <table class="order_table" border="2">
+                <tr>
+                    <th>Order Product</th>
+                    <th>Order Qunatity</th>
+                </tr>
+                {% for order in customer_orders %}
+                    <tr>
+                        <td>{{order.product}}</td>
+                        <td>{{order.quantity}}</td>
+                    </tr>
+                {% endfor %}
+            </table>
+           
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        
+
+    </body>
+</html>
