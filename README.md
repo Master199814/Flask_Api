@@ -5,6 +5,7 @@ docker build -t flask-app .
 docker run -p 5001:5001 flask-app
 
 #Get methods
+
 http://127.0.0.1:5001/customers - displays all  the customers details
 
 http://127.0.0.1:5001/customers/1 displays the customer with id=1
